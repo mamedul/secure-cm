@@ -1,0 +1,44 @@
+{
+	"name": "secure-cm",
+	"version": "2025.9.8",
+	"description": "A package to manage secrets safely. Loads .env, .yaml, or JSON configs, auto-encrypts/decrypts sensitive keys, and supports versioned configs for multiple environments.",
+	"main": "index.js",
+	"files": [
+		"index.js",
+		"README.md"
+	],
+	"scripts": {
+		"test": "node index.test.js",
+		"docs:serve": "docsify serve .",
+		"build": "echo 'Build script can be added here if needed'"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/mamedul/secure-cm.git"
+	},
+	"keywords": [
+		"config",
+		"secrets",
+		"env",
+		"yaml",
+		"json",
+		"security",
+		"encryption",
+		"decryption",
+		"configuration",
+		"dotenv"
+	],
+	"author": "MAMEDUL ISLAM <http://mamedul.github.io>",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/mamedul/secure-cm/issues"
+	},
+	"homepage": "https://mamedul.github.io/secure-cm",
+	"dependencies": {
+		"dotenv": "^17.2.2",
+		"js-yaml": "^4.1.0"
+	},
+	"devDependencies": {
+		"docsify-cli": "^4.4.4"
+	}
+}
