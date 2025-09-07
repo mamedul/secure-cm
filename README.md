@@ -4,8 +4,6 @@
 
 Secure-CM loads configurations from `.env`, `.yaml`, or `.json` files, automatically encrypts sensitive keys before saving, and decrypts them on load. It is designed for modern development workflows, especially for SaaS products and multi-environment deployments that require a clear separation of configuration and secrets.
 
-!(https://placehold.co/800x400/1e293b/ffffff%3Ftext%3DSecure-CM)
-
 ![Secure-CM](https://raw.githubusercontent.com/mamedul/secure-cm/main/secure-cm-banner.jpg)
 
 
